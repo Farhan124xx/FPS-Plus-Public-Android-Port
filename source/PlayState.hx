@@ -906,7 +906,7 @@ class PlayState extends MusicBeatState
 
 		creditTxt = new FlxText(876, 648, 348);
                 creditTxt.text = 'PORTED BY\nFarhan124xx';
-                creditTxt.setFormat(Paths.font("vcr"), 30, FlxColor.BLUE, RIGHT);
+                creditTxt.setFormat(Paths.font("vcr"), 30, FlxColor.WHITE, RIGHT);
                 creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
                 creditTxt.scrollFactor.set();
 
